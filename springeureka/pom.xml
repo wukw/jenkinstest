@@ -42,7 +42,9 @@
             <artifactId>spring-cloud-starter-eureka-server</artifactId>
         </dependency>
         
-        <build>
+       
+	</dependencies>
+	 <build>
     <plugins>
         <plugin>
             <groupId>org.springframework.boot</groupId>
@@ -61,5 +63,4 @@
         </plugin>
     </plugins>
 </build>
-	</dependencies>
 </project>
